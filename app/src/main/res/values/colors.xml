@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="fioletovyi">#6C348E</color>
+    <color name="goluboy">#0288F4</color>
+    <color name="krasnyi">#D90707</color>
+    <color name="zelenyi">#109B00</color>
+    <color name="seryi">#969D94</color>
+</resources>
