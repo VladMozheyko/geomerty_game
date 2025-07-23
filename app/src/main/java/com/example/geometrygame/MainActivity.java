@@ -61,7 +61,9 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this,"Нажали на персонажа", Toast.LENGTH_LONG ).show();
         }
         else if (id==R.id.btn_play) {
-            Toast.makeText(this,"Нажали на играть", Toast.LENGTH_LONG ).show();
+           // Toast.makeText(this,"Нажали на играть", Toast.LENGTH_LONG ).show();
+            intent = new Intent(this, PlayActivity.class);
+            startActivity(intent);
         }
         else if (id==R.id.btn_exit) {
             Toast.makeText(this,"Нажали на выход", Toast.LENGTH_LONG ).show();

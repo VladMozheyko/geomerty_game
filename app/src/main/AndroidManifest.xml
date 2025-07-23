@@ -13,10 +13,11 @@
         android:theme="@style/Theme.GeometryарGame"
         tools:targetApi="31">
         <activity
-            android:name=".GameActivity"
-            android:exported="false" />
+            android:name=".PlayActivity"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
         <activity
-            android:name=".gameActivity"
+            android:name=".GameActivity"
             android:exported="false" />
         <activity
             android:name=".CharacterActivity"
